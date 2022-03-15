@@ -130,6 +130,8 @@ h3 {
     
 }
 
+
+
 @media only screen and (max-width: 800px) {
     .rightside {
       display: flex;
@@ -141,6 +143,7 @@ h3 {
 
     }
   }
+
 
 .rightside>a {
     color: hsl( 0,75%,44%);
@@ -208,5 +211,6 @@ footer {
     padding-left: 0%;
       text-align: center;
         max-width: 100%;
+        margin-top: 1em;
     }
   }
