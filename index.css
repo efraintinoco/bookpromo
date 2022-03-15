@@ -1,14 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
-
-body {
-    font-family: 'Playfair Display SC', serif;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 main {
     height: 80vh;
-
+    font-family: 'Bitter', serif;
+    line-height: 30px;
 }
 
 header{
@@ -19,11 +16,10 @@ header{
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 3;
-    
-   
+    font-family: 'Playfair Display SC', serif;
 
-  
 }
+
 span {
     color: white;
     font-size: 30px;
@@ -47,8 +43,7 @@ h1 {
 
 h3 {
     text-align: center;
-    font-size: 30px;
-    
+    font-size: 50px;
     margin-top: 50px;
 }
 
@@ -74,13 +69,16 @@ h3 {
     color: black;
     grid-column: 2/3;
     grid-row: 1/2;
-    font-size: 80%;
+    font-size: 130%;
     display: flex;
     flex-direction: column;
     margin-right: 7em;
     
-     
-    
+}
+
+.rightside>a {
+    color: hsl( 0,75%,44%);
+    font-weight: bold;
 }
 
 img {
@@ -91,12 +89,9 @@ img {
     display: flex;
     flex-direction: row;
    
-    
 }
 .purchaselinks img{
     width: 100%; 
-    
-    
   
 }
 
@@ -110,4 +105,5 @@ footer {
     color: hsl( 0,75%,44%);  
     font-size: 15px;
     padding: 15px 15px;
+    font-family: 'Playfair Display SC', serif;
 }
