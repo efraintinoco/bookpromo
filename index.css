@@ -32,10 +32,7 @@ header{
           flex-direction: column;
           justify-content: center;
           text-align: center;
-          
-    
-        
-      }
+     }
 }
 
 span {
@@ -56,9 +53,7 @@ h1 {
     flex-direction: column;
     margin-bottom: 0;
     margin-top: 0   ;
-    
 }
-
 
 h3 {
     text-align: center;
@@ -73,9 +68,6 @@ h3 {
       justify-content: center;
       text-align: center;
       flex-wrap: wrap;
-      
-
-    
   }
 }
 
@@ -84,7 +76,7 @@ h3 {
     grid-template-columns: 3;
     grid-template-rows: 1fr;
     margin-bottom: 3em;
-    
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -93,8 +85,6 @@ h3 {
       flex-direction: column;
       justify-content: center;
       text-align: center;
-     
-
     }
   }
 
@@ -130,8 +120,6 @@ h3 {
     
 }
 
-
-
 @media only screen and (max-width: 800px) {
     .rightside {
       display: flex;
@@ -143,7 +131,6 @@ h3 {
 
     }
   }
-
 
 .rightside>a {
     color: hsl( 0,75%,44%);
@@ -183,8 +170,6 @@ img {
     width: 100%; 
   
 }
-
-
 
 .leftside>img:hover {
     width: 50%;
